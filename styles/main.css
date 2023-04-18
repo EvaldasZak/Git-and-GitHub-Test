@@ -89,3 +89,78 @@ text-underline-offset: 3px;
     max-width: 480px;
     margin: auto;
 }
+
+.escape {
+    width: 20px;
+    transition: 0.3s ease;
+}
+
+.escape:hover {
+    transform: rotate(90deg);
+}
+
+.tab h1 {
+    text-decoration: underline;
+    letter-spacing: 10px;
+    text-underline-offset: 15px;
+}
+
+.link a {
+    display: block;
+    border: solid 1px #fff;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.popup {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: none;
+}
+
+.popup .content {
+    position: relative;
+    max-width: 600px;
+    min-height: 400px;
+    height: auto;
+    background-color: #000;
+    margin: 145px auto 0 auto;
+    padding: 25px;
+}
+
+.popup .content .close {
+    color: #fff;
+    font-size: 32px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.popup .content h1 {
+    color: #fff;
+}
+
+.popup .content p {
+    color: #fff;
+}
+
+.popup .content img,
+.popup .content video {
+    max-width: 100%;
+    height: auto;
+}
+
+.tab {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .links {
+        flex-direction: row;
+    }
+}
