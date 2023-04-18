@@ -1,0 +1,91 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('../resources/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-position: center top;
+    padding: 100px 20px;
+
+}
+
+#logo {
+    width: 70px;
+    height: 70px;
+}
+
+#header {
+    margin-top: 360px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+.line {
+    width: 1px;
+    height: 50px;
+    background-color: white;
+}
+
+.line-center {
+    display: flex; align-items: center;justify-content: center;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+
+#main a {
+color: white;
+text-decoration-color: #fff;
+text-decoration-style: dotted;
+text-underline-offset: 3px;
+}
+
+.links div {
+    text-align: center;
+    width: 100%;
+    border: 1px solid white;
+    transition: color 1s ease, background-color 1s ease; 
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+.links div a:hover{
+    background-color: #ffffff50;
+    color: white;
+}
+
+
+#header > img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border-color: white;
+    border-width: 2px;
+    padding: 20px;
+    border-style: solid;
+
+}
+
+.container {
+    max-width: 480px;
+    margin: auto;
+}
